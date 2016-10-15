@@ -433,6 +433,7 @@ class Element {
 	public String getVariables () {
 		return this.variables;
 	}
+
 	public void sort () {
 		byte[] tempStr = this.variables.getBytes();
 		Arrays.sort(tempStr);
